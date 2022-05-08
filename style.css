@@ -1,0 +1,158 @@
+/*Input Container*/
+#container1{
+
+	height: 18rem;
+	width: 90rem;
+	background-image: linear-gradient(to right, #625edc, #d9539b, #e21c1c);
+	margin: auto;	
+	position: relative;
+}
+
+#container1 p{
+
+	font-size: 2rem;
+	color: white;
+	font-family: monospace;
+	letter-spacing: 0.4rem;
+	word-spacing: 1rem;
+	font-weight: 700;
+	position: absolute;
+	left: 24rem;
+}
+
+#container1 input[type='text']{
+
+	font-size: 1rem;
+	height: 3rem;
+	width: 12rem;
+	color: black;
+	font-weight: 900;
+	font-family: monospace;
+	border: white solid 1px;
+	position: absolute;
+	left: 9rem;
+	top: 12rem;
+	border: solid 0.5px black;
+	box-shadow: 0px 0px 4px 0.1px black;
+}
+
+
+
+/*Start Counter Button*/
+#btn{
+
+	height: 3rem;
+	width: 9rem;
+	font-size: 1rem;
+	padding: 1rem;
+	background-color: white;
+	font-weight: 700;
+	text-align: center;
+	border: black solid 0.5px;
+	border-radius: 15px;
+	box-shadow: 2px 4px black;
+	position: absolute;
+	left: 65rem;
+	top: 12rem;
+	cursor: pointer;
+}
+
+#btn:hover{
+
+	background-color: yellow;
+}
+
+#btn:active {
+
+  background-color: yellow;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+
+
+/*Counter container*/
+#container2{
+
+	height: 12rem;
+	width: 70rem;
+	background-color: #443e3e;
+	margin: auto;
+	margin-top: 3rem;	
+	position: relative;
+}
+
+
+
+/*Counter*/
+.current-container{
+
+	height: 6rem;
+	width: 6.5rem;
+	position: absolute;
+	top: 2rem;
+	background-color: black;
+	overflow: hidden;
+}
+
+/*1st Counter from left*/
+.current1{
+
+	left: 42rem;
+}
+
+/*2nd Counter from left*/
+.current2{
+
+	left: 34rem;
+}
+
+/*3rd Counter from left*/
+.current3{
+
+	left: 26rem;
+}
+
+/*4th Counter from left*/
+.current4{
+
+	left: 18rem;
+}
+
+.props{
+
+	height: 6rem;
+	width: 6.5rem;
+	background-color: white;
+	margin: auto;
+	border-top: solid 5px black;
+	box-shadow: 0px 0px 4px 0.1px white;
+	font-size: 3rem;
+	font-weight: 700;
+	position: absolute;
+	margin-top: 1rem;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.current{
+
+	position: absolute;
+	top: -1rem;
+}
+
+.next{
+
+	position: absolute;
+	top: 6rem;
+}
+
+.animate{
+
+	top: -1rem;
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+
