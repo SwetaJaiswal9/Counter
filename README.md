@@ -2,7 +2,7 @@
 
 ( https://swetajaiswal9.github.io/Counter/ )
 
-Counter using HTML, CSS, Javascript
+Counter using HTML, CSS, JavaScript
 
 # Screenshot
 
